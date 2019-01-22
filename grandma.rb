@@ -2,12 +2,12 @@
 def speak_to_grandma(phrase)
 
 if phrase != phrase.upcase()
-  puts "HUH?! SPEAK UP, SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-else phrase == phrase.upcase
-  puts "I LOVE YOU TOO PUMPKIN!"
+else
+  return "NO, NOT SINCE 1938!"
 
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
