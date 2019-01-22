@@ -4,6 +4,8 @@ def speak_to_grandma
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
+if puts "I LOVE YOU GRANDMA!"
+else puts "I LOVE YOU TOO PUMPKIN!"
 
 
 # If you shout, she can hear you (or at least she thinks so)
