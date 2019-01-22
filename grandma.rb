@@ -6,6 +6,8 @@ if phrase != phrase.upcase()
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
+elsif phrase == "I LOVE YOU GRANDMA!"
+  return "I LOVE YOU TOO PUMPKIN!"
 else
   return "NO, NOT SINCE 1938!"
 
